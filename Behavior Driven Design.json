@@ -1,0 +1,494 @@
+[
+  {
+    "@metadata": {
+      "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport/2027",
+      "checksum": "A:6058fbbf01dd8480"
+    },
+    "ident": 2027,
+    "ts": "2014-06-15T18:49:39.000+0000",
+    "name": "Behavior Driven Design",
+    "url_name": "bddl",
+    "comments": "1. Use Default Authentication Provider (above)\n2. DB Pwd: 8E4zwTRmdnIc (ValsEval_data on evaldb.espressologic.com)\n3. Fix Pwd of demo user\n4. Optionally, fix Project Name and URL",
+    "account_ident": 1661,
+    "authprovider_ident": 1621,
+    "status": null,
+    "Users": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Users/3336",
+          "checksum": "A:05e815f6920215ab"
+        },
+        "ident": 3336,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "name": "demo",
+        "fullname": "Demo Account with full access",
+        "email": null,
+        "status": "A",
+        "roles": "Full access",
+        "data": null,
+        "apikey_lifespan": null,
+        "password_hash": "u5t/HVKHeI0zo5zE1If7siJOFyBAWoyiB1UxglpMvMG1ksVto5dtzWHrt+Z1MeKuT/hE8lVMwpOefcewZ5dKPg==",
+        "password_salt": "5SVFExoVxoGNzlAdtiTSv9Pcb9ZEGnhRSNRhjh4R",
+        "project_ident": 2027
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Users/3337",
+          "checksum": "A:f4d1dc2aa3b90b35"
+        },
+        "ident": 3337,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "name": "guest",
+        "fullname": "Guest Account with read-only access",
+        "email": null,
+        "status": "A",
+        "roles": "Read only",
+        "data": null,
+        "apikey_lifespan": null,
+        "password_hash": "LmDY+NV8uUKN4b+EHIK9YQnoSuqypjsmN/PXvQyWYX47Qa/RM6j5cGb/mnP0i/1Csbs9TlHPbJGDFYzkCJtxDg==",
+        "password_salt": "umjJGIhJJ4UhbUpgLgVl48y1XAVJFWYi9al0YBQ8",
+        "project_ident": 2027
+      }
+    ],
+    "DbaseSchemas": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.DbaseSchemas/2168",
+          "checksum": "A:88401b84ad1d1373"
+        },
+        "ident": 2168,
+        "ts": "2014-06-15T18:42:07.000+0000",
+        "name": "Database: ValsEval_data - ValsEval_data",
+        "comments": "Created using Connect Wizard",
+        "url": "jdbc:mysql://evaldb.espressologic.com:3306/ValsEval_data",
+        "catalog_name": "ValsEval_data",
+        "schema_name": null,
+        "user_name": "ValsEval_data",
+        "password": "2:HPahXMo59hcQeTR/9a5ewFWa/vkamb59dHP1xzUwqcybbd+m7wTwFg==",
+        "salt": "3wpxF5WmF30d2giTH/+hyb99qTrJioeIamVmbcaq",
+        "read_only": null,
+        "schema_editable": null,
+        "active": true,
+        "status": "OK",
+        "project_ident": 2027,
+        "dbasetype_ident": 1,
+        "conn_type": null,
+        "port_num": null,
+        "TableInfos": [
+        ]
+      }
+    ],
+    "ApiVersions": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiVersions/2032",
+          "checksum": "A:f5939d439681a7ff"
+        },
+        "ident": 2032,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "name": "v1",
+        "comments": null,
+        "project_ident": 2027,
+        "Resources": [
+        ]
+      }
+    ],
+    "ProjectOptions": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13178",
+          "checksum": "A:e163a184f7d96aeb"
+        },
+        "ident": 13178,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "false",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 1
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13179",
+          "checksum": "A:2ceaf3847b714054"
+        },
+        "ident": 13179,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "http://www.espressologic.com/model/",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 2
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13180",
+          "checksum": "A:93cd686cbc05b6e2"
+        },
+        "ident": 13180,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "false",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 3
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13181",
+          "checksum": "A:c88d5809f0df6a65"
+        },
+        "ident": 13181,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "@metadata",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 4
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13182",
+          "checksum": "A:49c9e7107a0df87a"
+        },
+        "ident": 13182,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "2000",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 5
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13183",
+          "checksum": "A:296615ca5f989f12"
+        },
+        "ident": 13183,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "2000",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 6
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13184",
+          "checksum": "A:f1a6148c393d2892"
+        },
+        "ident": 13184,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "20",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 7
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13185",
+          "checksum": "A:42935add63effe6c"
+        },
+        "ident": 13185,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "5000",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 8
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13186",
+          "checksum": "A:03de00c6ecdfe2cf"
+        },
+        "ident": 13186,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "20",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 9
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13187",
+          "checksum": "A:67e91a793d16313c"
+        },
+        "ident": 13187,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "100",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 10
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ProjectOptions/13188",
+          "checksum": "A:e022caf8f62eabaf"
+        },
+        "ident": 13188,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "option_value": "2000",
+        "project_ident": 2027,
+        "projectoptiontype_ident": 11
+      }
+    ],
+    "ProjectLibraries": [
+    ],
+    "Rules": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/5741",
+          "checksum": "A:aa8188417ef79c31"
+        },
+        "ident": 5741,
+        "ts": "2014-06-15T18:43:46.000+0000",
+        "entity_name": "Person",
+        "attribute_name": "DaysToDo",
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": null,
+        "prop5": null,
+        "rule_text1": "BuildsStories",
+        "rule_text2": null,
+        "rule_text3": "DaysToDo",
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Derive DaysToDo as sum(BuildsStories.DaysToDo)",
+        "verbs": null,
+        "comments": null,
+        "active": true,
+        "project_ident": 2027,
+        "ruletype_ident": 1
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/5742",
+          "checksum": "A:b9bea1fcd9eb1fa1"
+        },
+        "ident": 5742,
+        "ts": "2014-06-15T18:44:23.000+0000",
+        "entity_name": "Sprint",
+        "attribute_name": "DaysToGo",
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": null,
+        "prop5": null,
+        "rule_text1": "Behaviors",
+        "rule_text2": null,
+        "rule_text3": "DaysToDo",
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Derive DaysToGo as sum(Behaviors.DaysToDo)",
+        "verbs": null,
+        "comments": null,
+        "active": true,
+        "project_ident": 2027,
+        "ruletype_ident": 1
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Rules/5737",
+          "checksum": "A:44ebfada47f1010e"
+        },
+        "ident": 5737,
+        "ts": "2014-06-15T18:29:51.000+0000",
+        "entity_name": "Story",
+        "attribute_name": "DaysToDo",
+        "prop1": null,
+        "prop2": null,
+        "prop3": null,
+        "prop4": null,
+        "prop5": null,
+        "rule_text1": "Behaviors",
+        "rule_text2": null,
+        "rule_text3": "DaysToDo",
+        "rule_text4": null,
+        "rule_text5": null,
+        "predicate": null,
+        "name": null,
+        "auto_name": "Derive DaysToDo as sum(Behaviors.DaysToDo)",
+        "verbs": null,
+        "comments": null,
+        "active": true,
+        "project_ident": 2027,
+        "ruletype_ident": 1
+      }
+    ],
+    "ApiKeys": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/4518",
+          "checksum": "A:f460dbe30a32954d"
+        },
+        "ident": 4518,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "name": "Admin key",
+        "description": null,
+        "apikey": "RN94SYEPInin6rU4de8u",
+        "status": "A",
+        "default_access": null,
+        "expiration": null,
+        "logging": "*=FINE",
+        "user_identifier": null,
+        "data": null,
+        "project_ident": 2027
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/4519",
+          "checksum": "A:be7ba1bc64490f43"
+        },
+        "ident": 4519,
+        "ts": "2014-06-15T18:45:01.000+0000",
+        "name": "Temp key for demo [2014-06-15 18:45:00.945]",
+        "description": null,
+        "apikey": "67fb7c2dfd615edbdecce33b2e59990b",
+        "status": "A",
+        "default_access": null,
+        "expiration": "2014-06-16T18:45:00.000+0000",
+        "logging": "admini=FINE,buslog=FINE,depend=FINE,generl=FINE,persis=FINE,engine=FINE,resrcs=FINE,securi=FINE,sysdbg=FINE,ulogic=FINE",
+        "user_identifier": "demo",
+        "data": "username=demo",
+        "project_ident": 2027
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/4520",
+          "checksum": "A:452433c253f3ce76"
+        },
+        "ident": 4520,
+        "ts": "2014-06-15T18:49:52.000+0000",
+        "name": "Temp key for demo [2014-06-15 18:49:52.126]",
+        "description": null,
+        "apikey": "579b283ae5667bc1093a27c6455f41e1",
+        "status": "A",
+        "default_access": null,
+        "expiration": "2014-06-16T18:49:52.000+0000",
+        "logging": "admini=FINE,buslog=FINE,depend=FINE,generl=FINE,persis=FINE,engine=FINE,resrcs=FINE,securi=FINE,sysdbg=FINE,ulogic=FINE",
+        "user_identifier": "demo",
+        "data": "username=demo",
+        "project_ident": 2027
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/4521",
+          "checksum": "A:48015d4d144f6226"
+        },
+        "ident": 4521,
+        "ts": "2014-06-15T18:54:48.000+0000",
+        "name": "Temp key for demo [2014-06-15 18:54:48.664]",
+        "description": null,
+        "apikey": "d084fab2c0104df8b83841372d48231b",
+        "status": "A",
+        "default_access": null,
+        "expiration": "2014-06-16T18:54:48.000+0000",
+        "logging": "admini=FINE,buslog=FINE,depend=FINE,generl=FINE,persis=FINE,engine=FINE,resrcs=FINE,securi=FINE,sysdbg=FINE,ulogic=FINE",
+        "user_identifier": "demo",
+        "data": "username=demo",
+        "project_ident": 2027
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.ApiKeys/4522",
+          "checksum": "A:8fcafbf41bcedfa1"
+        },
+        "ident": 4522,
+        "ts": "2014-06-15T18:55:31.000+0000",
+        "name": "Temp key for demo [2014-06-15 18:55:31.195]",
+        "description": null,
+        "apikey": "5ab0d046dcee337cdd96307814ff571f",
+        "status": "A",
+        "default_access": null,
+        "expiration": "2014-06-16T18:55:31.000+0000",
+        "logging": "admini=FINE,buslog=FINE,depend=FINE,generl=FINE,persis=FINE,engine=FINE,resrcs=FINE,securi=FINE,sysdbg=FINE,ulogic=FINE",
+        "user_identifier": "demo",
+        "data": "username=demo",
+        "project_ident": 2027
+      }
+    ],
+    "EventHandlers": [
+    ],
+    "Handlers": [
+    ],
+    "Roles": [
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles/6386",
+          "checksum": "A:7970e1a3ce027473"
+        },
+        "ident": 6386,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "name": "Full access",
+        "description": "Full access to everything in this project",
+        "default_permission": "A",
+        "project_ident": 2027,
+        "default_apivisibility": "TVPRM",
+        "ApiKeyRoles": [
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/6370",
+              "checksum": "A:3883699675f4644a"
+            },
+            "ident": 6370,
+            "ts": "2014-06-15T18:27:45.000+0000",
+            "apikey_ident": 4518,
+            "role_ident": 6386
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/6371",
+              "checksum": "A:170e1cc83e7a3a05"
+            },
+            "ident": 6371,
+            "ts": "2014-06-15T18:45:01.000+0000",
+            "apikey_ident": 4519,
+            "role_ident": 6386
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/6372",
+              "checksum": "A:84c9cff548b584a9"
+            },
+            "ident": 6372,
+            "ts": "2014-06-15T18:49:52.000+0000",
+            "apikey_ident": 4520,
+            "role_ident": 6386
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/6373",
+              "checksum": "A:32f47deb90db6141"
+            },
+            "ident": 6373,
+            "ts": "2014-06-15T18:54:48.000+0000",
+            "apikey_ident": 4521,
+            "role_ident": 6386
+          },
+          {
+            "@metadata": {
+              "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles.ApiKeyRoles/6374",
+              "checksum": "A:cc4b70ded7c87ef1"
+            },
+            "ident": 6374,
+            "ts": "2014-06-15T18:55:31.000+0000",
+            "apikey_ident": 4522,
+            "role_ident": 6386
+          }
+        ],
+        "PermissionData": [
+        ],
+        "TablePermissions": [
+        ]
+      },
+      {
+        "@metadata": {
+          "href": "https://eval.espressologic.com/rest/abl/admin/v2/ProjectExport.Roles/6387",
+          "checksum": "A:5dd6ce6ee99d8bb5"
+        },
+        "ident": 6387,
+        "ts": "2014-06-15T18:27:45.000+0000",
+        "name": "Read only",
+        "description": "Read-only access to everything in this project",
+        "default_permission": "R",
+        "project_ident": 2027,
+        "default_apivisibility": "TVPRM",
+        "ApiKeyRoles": [
+        ],
+        "PermissionData": [
+        ],
+        "TablePermissions": [
+        ]
+      }
+    ]
+  }
+]
